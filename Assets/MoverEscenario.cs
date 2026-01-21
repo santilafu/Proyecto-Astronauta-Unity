@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class MoverEscenario : MonoBehaviour
 {
-    public float velocidad = 5f;
+    public float velocidad = 7f;
 
     // DISTANCIA: ¿Cuánto mide tu suelo de largo? (Lo ajustamos en Unity)
     public float anchoDelObjeto = 19f;

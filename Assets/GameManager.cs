@@ -33,11 +33,14 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        // Aseguramos que el tiempo corra y el panel esté oculto
         Time.timeScale = 1f;
-        if (panelGameOver != null) panelGameOver.SetActive(false);
-    }
+        // ------------------------------------------
 
+        // Resto de tu código (ocultar panel, poner puntos a 0, etc.)
+        if (panelGameOver != null) panelGameOver.SetActive(false);
+        puntos = 0;
+        juegoTerminado = false;
+    }
     void Update()
     {
         if (juegoTerminado) return;
